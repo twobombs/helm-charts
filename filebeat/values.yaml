@@ -52,7 +52,7 @@ envFrom: []
 hostPathRoot: /var/lib
 hostNetworking: false
 image: "docker.elastic.co/beats/filebeat"
-imageTag: "8.0.0-SNAPSHOT"
+imageTag: "8.0.0-snapshot"
 imagePullPolicy: "IfNotPresent"
 imagePullSecrets: []
 
