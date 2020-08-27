@@ -28,7 +28,7 @@ secretMounts: []
 #    path: /usr/share/kibana/data/kibana.keystore
 #    subPath: kibana.keystore # optional
 
-image: "twobombs/kibana/kibana"
+image: "twobombs/kibana"
 imageTag: "8.0.0-snapshot"
 imagePullPolicy: "IfNotPresent"
 

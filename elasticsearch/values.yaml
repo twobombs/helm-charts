@@ -50,7 +50,7 @@ secretMounts: []
 #    path: /usr/share/elasticsearch/config/certs
 #    defaultMode: 0755
 
-image: "twobombs/elasticsearch/elasticsearch"
+image: "twobombs/elasticsearch"
 imageTag: "8.0.0-snapshot"
 imagePullPolicy: "IfNotPresent"
 
